@@ -1,4 +1,4 @@
-# resilience-architecture-dot-net-core-demo
+# Demonstrating Resilience Architecture in .Net Core
 Demonstrating the Resilience Architecture in .Net Core. I have written a code that will return user friendly error to requester if there is any exception in the pipeline while operating on the requests. 
 This implements a Dummy class simulating data access from remote source and exception. 
 A service extension to be used in program.cs that will implement retry and circuit breaker in resilience pattern
